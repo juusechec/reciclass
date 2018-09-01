@@ -2181,8 +2181,8 @@
               },
               "parameters": [
                 "",
-                "2",
-                "\"timer_residuos\""
+                "6 - Random(4)",
+                "timer_Ordinarios"
               ],
               "subInstructions": []
             }
@@ -2195,7 +2195,7 @@
               },
               "parameters": [
                 "",
-                "\"timer_residuos\""
+                "timer_Ordinarios"
               ],
               "subInstructions": []
             },
@@ -2216,6 +2216,51 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "residuos_Ordinarios",
+                "=",
+                "Random(3)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "2 + Random(2) ",
+                "timer_Organicos"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "timer_Organicos"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Create"
               },
               "parameters": [
@@ -2224,6 +2269,51 @@
                 "Random(800)",
                 "20",
                 "16"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "residuos_Organicos",
+                "=",
+                "Random(3)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "2 + Random(3)",
+                "timer_Papel_Carton"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "timer_Papel_Carton"
               ],
               "subInstructions": []
             },
@@ -2244,14 +2334,45 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Create"
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "residuos_Papel_Carton",
+                "=",
+                "Random(3)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
               },
               "parameters": [
                 "",
-                "residuos_Riesgo_Biologico",
-                "Random(800)",
-                "20",
-                "16"
+                "2 + Random(4)",
+                "timer_Plasticos"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "timer_Plasticos"
               ],
               "subInstructions": []
             },
@@ -2266,54 +2387,6 @@
                 "Random(800)",
                 "20",
                 "16"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "residuos_Ordinarios",
-                "=",
-                "Random(3)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "residuos_Organicos",
-                "=",
-                "Random(3)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "residuos_Papel_Carton",
-                "=",
-                "Random(3)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "residuos_Riesgo_Biologico",
-                "=",
-                "Random(3)"
               ],
               "subInstructions": []
             },
@@ -2336,8 +2409,59 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "7 - Random(5)",
+                "timer_Biologico"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "timer_Biologico"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "residuos_Riesgo_Biologico",
+                "Random(800)",
+                "20",
+                "16"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "residuos_Riesgo_Biologico",
+                "=",
+                "Random(3)"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
