@@ -351,7 +351,12 @@
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "hold",
+      "value": "0"
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -391,7 +396,7 @@
           "name": "tux",
           "width": 150,
           "x": 325,
-          "y": 450,
+          "y": 391,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -532,7 +537,26 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "angularDamping": 0.1,
+              "autoResizing": false,
+              "averageFriction": 0.8,
+              "averageRestitution": 0,
+              "coordsList": "",
+              "dynamic": false,
+              "fixedRotation": false,
+              "isBullet": false,
+              "linearDamping": 0.1,
+              "massDensity": 1,
+              "name": "Physics",
+              "polygonHeight": 200,
+              "polygonWidth": 200,
+              "positioning": "OnCenter",
+              "shapeType": "Box",
+              "type": "PhysicsBehavior::PhysicsBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "tux_static",
@@ -1194,7 +1218,26 @@
               "value": ""
             }
           ],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "angularDamping": 0.1,
+              "autoResizing": false,
+              "averageFriction": 0.8,
+              "averageRestitution": 0,
+              "coordsList": "",
+              "dynamic": false,
+              "fixedRotation": false,
+              "isBullet": false,
+              "linearDamping": 0.1,
+              "massDensity": 1,
+              "name": "Physics",
+              "polygonHeight": 200,
+              "polygonWidth": 200,
+              "positioning": "OnCenter",
+              "shapeType": "Box",
+              "type": "PhysicsBehavior::PhysicsBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "papas",
@@ -1290,7 +1333,26 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "angularDamping": 0.1,
+              "autoResizing": false,
+              "averageFriction": 0.8,
+              "averageRestitution": 0,
+              "coordsList": "",
+              "dynamic": false,
+              "fixedRotation": false,
+              "isBullet": false,
+              "linearDamping": 0.1,
+              "massDensity": 1,
+              "name": "Physics",
+              "polygonHeight": 200,
+              "polygonWidth": 200,
+              "positioning": "OnCenter",
+              "shapeType": "Box",
+              "type": "PhysicsBehavior::PhysicsBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "banana",
@@ -1386,7 +1448,26 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "angularDamping": 0.1,
+              "autoResizing": false,
+              "averageFriction": 0.8,
+              "averageRestitution": 0,
+              "coordsList": "",
+              "dynamic": false,
+              "fixedRotation": false,
+              "isBullet": false,
+              "linearDamping": 0.1,
+              "massDensity": 1,
+              "name": "Physics",
+              "polygonHeight": 200,
+              "polygonWidth": 200,
+              "positioning": "OnCenter",
+              "shapeType": "Box",
+              "type": "PhysicsBehavior::PhysicsBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "caja",
@@ -1482,7 +1563,26 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "angularDamping": 0.1,
+              "autoResizing": false,
+              "averageFriction": 0.8,
+              "averageRestitution": 0,
+              "coordsList": "",
+              "dynamic": false,
+              "fixedRotation": false,
+              "isBullet": false,
+              "linearDamping": 0.1,
+              "massDensity": 1,
+              "name": "Physics",
+              "polygonHeight": 200,
+              "polygonWidth": 200,
+              "positioning": "OnCenter",
+              "shapeType": "Box",
+              "type": "PhysicsBehavior::PhysicsBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "bolsa",
@@ -1578,7 +1678,26 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "angularDamping": 0.1,
+              "autoResizing": false,
+              "averageFriction": 0.8,
+              "averageRestitution": 0,
+              "coordsList": "",
+              "dynamic": false,
+              "fixedRotation": false,
+              "isBullet": false,
+              "linearDamping": 0.1,
+              "massDensity": 1,
+              "name": "Physics",
+              "polygonHeight": 200,
+              "polygonWidth": 200,
+              "positioning": "OnCenter",
+              "shapeType": "Box",
+              "type": "PhysicsBehavior::PhysicsBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "jeringa",
@@ -2041,49 +2160,6 @@
                 "tux",
                 "=",
                 "4"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlayAnimation"
-              },
-              "parameters": [
-                "tux"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "tux",
-                "=",
-                "5"
               ],
               "subInstructions": []
             },
@@ -2638,6 +2714,207 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "hold",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "residuos_Ordinarios",
+                    "Physics",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "x"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "hold",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "hold",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "residuos_Ordinarios",
+                "=",
+                "tux.X(residuos_Ordinarios)",
+                "=",
+                "tux.Y(residuos_Ordinarios)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "residuos_Ordinarios",
+                    "Physics",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "x"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "hold",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
       "layers": [
@@ -2659,7 +2936,16 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "gravityX": 0,
+          "gravityY": 9,
+          "name": "Physics",
+          "scaleX": 100,
+          "scaleY": 100,
+          "type": "PhysicsBehavior::PhysicsBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
