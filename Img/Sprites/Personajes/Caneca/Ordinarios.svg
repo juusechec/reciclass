@@ -14,7 +14,7 @@
    width="48"
    height="48"
    id="svg57"
-   sodipodi:docname="Caneca Papel Carton.svg"
+   sodipodi:docname="Ordinarios.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -30,7 +30,7 @@
      id="namedview133"
      showgrid="false"
      inkscape:zoom="13.906433"
-     inkscape:cx="27.282352"
+     inkscape:cx="12.648837"
      inkscape:cy="24.942568"
      inkscape:window-x="0"
      inkscape:window-y="34"
@@ -445,12 +445,12 @@
   <path
      d="m 3.836697,16.810238 c -0.044089,-0.03506 1.731963,25.223968 1.732469,25.231625 0.166614,2.522544 1.565267,3.444491 3.130763,3.448247 0.055941,1.29e-4 29.36948,-0.0032 29.994007,-0.0059 2.636366,-0.01109 3.282248,-1.61654 3.455675,-3.370659 0.01391,-0.03458 1.789053,-25.268751 1.80296,-25.303337 -13.371957,0 -26.743914,0 -40.115874,0 z"
      id="path1751"
-     style="fill:url(#linearGradient1068);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+     style="fill:#51b618;fill-opacity:1;fill-rule:evenodd;stroke:#505050;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
      inkscape:connector-curvature="0" />
   <path
      d="M 7.538492,4.7306315 C 6.494167,4.7330003 5.620149,4.7569809 5.144078,5.7442051 5.061333,5.9157934 2.539129,12.879834 2.417869,13.145414 c -1.038105,2.273602 -0.08076,5.137624 1.92431,5.118449 0.381315,-0.0035 39.510222,0.01776 40.116984,0 1.706821,-0.04908 1.925238,-3.365584 1.190463,-4.857527 -0.04163,-0.08452 -3.451799,-7.7570361 -3.538774,-7.8929342 -0.402274,-0.6069229 -1.30313,-0.8729138 -1.972297,-0.8480012 -0.131821,0.00503 -32.4696,0.064936 -32.600063,0.065231 z"
      id="path1841"
-     style="fill:url(#linearGradient1872);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+     style="fill:url(#linearGradient1872);fill-opacity:1;fill-rule:evenodd;stroke:#505050;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
      inkscape:connector-curvature="0" />
   <path
      d="M 7.72045,6.3900545 C 6.735524,6.3773223 6.671388,6.3392466 6.449677,7.0362462 6.398497,7.1971422 4.336482,13.531607 4.255655,13.777418 c -0.274879,0.835953 0.113825,1.05657 1.067748,1.039577 0.337924,-0.006 37.346756,0 37.884766,0 0.763772,0 0.990332,-0.2516 0.817805,-0.845397 C 43.955868,13.730313 41.085266,6.9669634 41.008179,6.8465153 40.651639,6.3085929 40.713471,6.3101594 40.09072,6.3025755 39.973809,6.301151 7.836071,6.3915492 7.72045,6.3900545 Z"
