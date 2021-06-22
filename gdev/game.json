@@ -1,23 +1,22 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 97,
+    "build": 99,
     "major": 4,
     "minor": 0,
     "revision": 0
   },
   "properties": {
+    "adaptGameResolutionAtRuntime": false,
     "folderProject": false,
-    "linuxExecutableFilename": "",
-    "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "/home/chayder/Documentos/Universidad/GLUD/SLUD/Hackathon_2018/reciclass/gdev/game.json",
+    "projectUuid": "01f3c63d-45a1-4481-bc03-937ff8a32902",
+    "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
+    "useDeprecatedZeroAsDefaultZOrder": true,
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "winExecutableFilename": "",
-    "winExecutableIconFile": "",
     "name": "Project",
     "author": "Reciclass",
     "windowWidth": 800,
@@ -30,65 +29,7 @@
     "loadingScreen": {
       "showGDevelopSplash": true
     },
-    "extensions": [
-      {
-        "name": "BuiltinObject"
-      },
-      {
-        "name": "BuiltinAudio"
-      },
-      {
-        "name": "BuiltinVariables"
-      },
-      {
-        "name": "BuiltinTime"
-      },
-      {
-        "name": "BuiltinMouse"
-      },
-      {
-        "name": "BuiltinKeyboard"
-      },
-      {
-        "name": "BuiltinJoystick"
-      },
-      {
-        "name": "BuiltinCamera"
-      },
-      {
-        "name": "BuiltinWindow"
-      },
-      {
-        "name": "BuiltinFile"
-      },
-      {
-        "name": "BuiltinNetwork"
-      },
-      {
-        "name": "BuiltinScene"
-      },
-      {
-        "name": "BuiltinAdvanced"
-      },
-      {
-        "name": "Sprite"
-      },
-      {
-        "name": "BuiltinCommonInstructions"
-      },
-      {
-        "name": "BuiltinCommonConversions"
-      },
-      {
-        "name": "BuiltinStringInstructions"
-      },
-      {
-        "name": "BuiltinMathematicalTools"
-      },
-      {
-        "name": "BuiltinExternalLayouts"
-      }
-    ],
+    "extensionProperties": [],
     "platforms": [
       {
         "name": "GDevelop JS platform"
@@ -102,6 +43,7 @@
         "alwaysLoaded": false,
         "file": "../../../../../../../Imágenes/Variety/Downloaded/wood_board-wallpaper-1366x768.jpg",
         "kind": "image",
+        "metadata": "",
         "name": "wood_board-wallpaper-1366x768.jpg",
         "smoothed": true,
         "userAdded": true
@@ -110,6 +52,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Tux.png",
         "kind": "image",
+        "metadata": "",
         "name": "Tux.png",
         "smoothed": true,
         "userAdded": false
@@ -118,6 +61,7 @@
         "alwaysLoaded": false,
         "file": "../Img/TuxTrLeft.png",
         "kind": "image",
+        "metadata": "",
         "name": "TuxTrLeft.png",
         "smoothed": true,
         "userAdded": true
@@ -126,6 +70,7 @@
         "alwaysLoaded": false,
         "file": "../Img/TuxMoveLeft.png",
         "kind": "image",
+        "metadata": "",
         "name": "TuxMoveLeft.png",
         "smoothed": true,
         "userAdded": true
@@ -134,6 +79,7 @@
         "alwaysLoaded": false,
         "file": "../Img/TuxMoveRight.png",
         "kind": "image",
+        "metadata": "",
         "name": "TuxMoveRight.png",
         "smoothed": true,
         "userAdded": true
@@ -142,6 +88,7 @@
         "alwaysLoaded": false,
         "file": "../Img/TuxTrRight.png",
         "kind": "image",
+        "metadata": "",
         "name": "TuxTrRight.png",
         "smoothed": true,
         "userAdded": true
@@ -150,6 +97,7 @@
         "alwaysLoaded": false,
         "file": "../Img/TuxThrow.png",
         "kind": "image",
+        "metadata": "",
         "name": "TuxThrow.png",
         "smoothed": true,
         "userAdded": false
@@ -158,6 +106,7 @@
         "alwaysLoaded": false,
         "file": "../Img/backgroud.png",
         "kind": "image",
+        "metadata": "",
         "name": "backgroud.png",
         "smoothed": true,
         "userAdded": true
@@ -166,6 +115,7 @@
         "alwaysLoaded": false,
         "file": "../Img/background.png",
         "kind": "image",
+        "metadata": "",
         "name": "background.png",
         "smoothed": true,
         "userAdded": true
@@ -174,6 +124,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Ordinarios/Paquete.png",
         "kind": "image",
+        "metadata": "",
         "name": "Paquete.png",
         "smoothed": true,
         "userAdded": false
@@ -182,6 +133,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Ordinarios/Paquete50x50.png",
         "kind": "image",
+        "metadata": "",
         "name": "Paquete50x50.png",
         "smoothed": true,
         "userAdded": false
@@ -190,6 +142,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Ordinarios/Servilleta50x50.png",
         "kind": "image",
+        "metadata": "",
         "name": "Servilleta50x50.png",
         "smoothed": true,
         "userAdded": true
@@ -198,6 +151,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Ordinarios/Vajilla50x50.png",
         "kind": "image",
+        "metadata": "",
         "name": "Vajilla50x50.png",
         "smoothed": true,
         "userAdded": true
@@ -206,6 +160,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Ordinarios/Servilleta.png",
         "kind": "image",
+        "metadata": "",
         "name": "Servilleta.png",
         "smoothed": true,
         "userAdded": true
@@ -214,6 +169,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Organicos/Banana50x50.png",
         "kind": "image",
+        "metadata": "",
         "name": "Banana50x50.png",
         "smoothed": true,
         "userAdded": true
@@ -222,6 +178,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Organicos/manzana.png",
         "kind": "image",
+        "metadata": "",
         "name": "manzana.png",
         "smoothed": true,
         "userAdded": true
@@ -230,6 +187,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Organicos/pescado.png",
         "kind": "image",
+        "metadata": "",
         "name": "pescado.png",
         "smoothed": true,
         "userAdded": false
@@ -238,6 +196,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Papel Carton/Caja50x50.png",
         "kind": "image",
+        "metadata": "",
         "name": "Caja50x50.png",
         "smoothed": true,
         "userAdded": false
@@ -246,6 +205,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Papel Carton/Papel50x50.png",
         "kind": "image",
+        "metadata": "",
         "name": "Papel50x50.png",
         "smoothed": true,
         "userAdded": true
@@ -254,6 +214,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Papel Carton/Periodico50x50.png",
         "kind": "image",
+        "metadata": "",
         "name": "Periodico50x50.png",
         "smoothed": true,
         "userAdded": false
@@ -262,6 +223,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Riesgo Biologico/Jeringa.png",
         "kind": "image",
+        "metadata": "",
         "name": "Jeringa.png",
         "smoothed": true,
         "userAdded": false
@@ -270,6 +232,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Riesgo Biologico/Rata.png",
         "kind": "image",
+        "metadata": "",
         "name": "Rata.png",
         "smoothed": true,
         "userAdded": true
@@ -278,6 +241,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Riesgo Biologico/TNT.png",
         "kind": "image",
+        "metadata": "",
         "name": "TNT.png",
         "smoothed": true,
         "userAdded": true
@@ -286,6 +250,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Plastico/Bolsa.png",
         "kind": "image",
+        "metadata": "",
         "name": "Bolsa.png",
         "smoothed": true,
         "userAdded": false
@@ -294,6 +259,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Plastico/Botella.png",
         "kind": "image",
+        "metadata": "",
         "name": "Botella.png",
         "smoothed": true,
         "userAdded": true
@@ -302,6 +268,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Residuos/Plastico/Vaso.png",
         "kind": "image",
+        "metadata": "",
         "name": "Vaso.png",
         "smoothed": true,
         "userAdded": false
@@ -310,6 +277,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Personajes/Caneca/Ordinarios150x150.png",
         "kind": "image",
+        "metadata": "",
         "name": "Ordinarios150x150.png",
         "smoothed": true,
         "userAdded": true
@@ -318,6 +286,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Personajes/Caneca/Organicos150x150.png",
         "kind": "image",
+        "metadata": "",
         "name": "Organicos150x150.png",
         "smoothed": true,
         "userAdded": true
@@ -326,6 +295,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Personajes/Caneca/Papel Carton150x150.png",
         "kind": "image",
+        "metadata": "",
         "name": "Papel Carton150x150.png",
         "smoothed": true,
         "userAdded": false
@@ -334,6 +304,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Personajes/Caneca/Riesgo Biologico150x150.png",
         "kind": "image",
+        "metadata": "",
         "name": "Riesgo Biologico150x150.png",
         "smoothed": true,
         "userAdded": false
@@ -342,6 +313,7 @@
         "alwaysLoaded": false,
         "file": "../Img/Sprites/Personajes/Caneca/Plastico150x150.png",
         "kind": "image",
+        "metadata": "",
         "name": "Plastico150x150.png",
         "smoothed": true,
         "userAdded": false
@@ -354,6 +326,7 @@
   "variables": [
     {
       "name": "hold",
+      "type": "string",
       "value": "0"
     }
   ],
@@ -379,12 +352,34 @@
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
+        "gridType": "rectangular",
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
         "zoomFactor": 1
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Residuos",
+          "objects": [
+            {
+              "name": "ResiduosOrdinarios"
+            },
+            {
+              "name": "ResiduosOrganicos"
+            },
+            {
+              "name": "ResiduosPapelCarton"
+            },
+            {
+              "name": "ResiduosPlasticos"
+            },
+            {
+              "name": "ResiduosRiesgoBiologico"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -394,6 +389,7 @@
           "layer": "",
           "locked": false,
           "name": "tux",
+          "persistentUuid": "47d475ca-afbf-4361-87ac-167e6105f5ee",
           "width": 150,
           "x": 325,
           "y": 391,
@@ -409,6 +405,7 @@
           "layer": "",
           "locked": false,
           "name": "Background",
+          "persistentUuid": "8fb310a1-1b28-42ab-ba6a-d9ae62f4f76b",
           "width": 837,
           "x": 0,
           "y": 0,
@@ -423,7 +420,8 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "caneca_Ordinarios",
+          "name": "CanecaOrdinarios",
+          "persistentUuid": "c6c5970e-7e38-4752-add8-58322f49506a",
           "width": 0,
           "x": 4,
           "y": 70,
@@ -438,7 +436,8 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "caneca_Organicos",
+          "name": "CanecaOrganicos",
+          "persistentUuid": "87af320a-5c7a-437e-a976-25255fc3e2f7",
           "width": 0,
           "x": 168,
           "y": 73,
@@ -453,7 +452,8 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "caneca_Papel_Carton",
+          "name": "CanecaPapelCarton",
+          "persistentUuid": "78b5ac0d-ff52-4394-b67c-d9c8a65f7914",
           "width": 0,
           "x": 514,
           "y": 78,
@@ -468,7 +468,8 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "caneca_Biologica",
+          "name": "CanecaBiologica",
+          "persistentUuid": "f94cb601-b085-4203-8b03-86e346173279",
           "width": 0,
           "x": 671,
           "y": 75,
@@ -483,7 +484,8 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "caneca_Plasticos",
+          "name": "CanecaPlasticos",
+          "persistentUuid": "ee7d21ee-712e-4cc3-8784-4109fd9922df",
           "width": 0,
           "x": 349,
           "y": 75,
@@ -496,6 +498,7 @@
       "objects": [
         {
           "name": "Background",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -534,29 +537,11 @@
         },
         {
           "name": "tux",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [
-            {
-              "angularDamping": 0.1,
-              "autoResizing": false,
-              "averageFriction": 0.8,
-              "averageRestitution": 0,
-              "coordsList": "",
-              "dynamic": false,
-              "fixedRotation": false,
-              "isBullet": false,
-              "linearDamping": 0.1,
-              "massDensity": 1,
-              "name": "Physics",
-              "polygonHeight": 200,
-              "polygonWidth": 200,
-              "positioning": "OnCenter",
-              "shapeType": "Box",
-              "type": "PhysicsBehavior::PhysicsBehavior"
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "tux_static",
@@ -1209,33 +1194,40 @@
           ]
         },
         {
-          "name": "residuos_Ordinarios",
+          "name": "ResiduosOrdinarios",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
             {
               "name": "",
+              "type": "string",
               "value": ""
             }
           ],
           "behaviors": [
             {
-              "angularDamping": 0.1,
-              "autoResizing": false,
-              "averageFriction": 0.8,
-              "averageRestitution": 0,
-              "coordsList": "",
-              "dynamic": false,
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
               "fixedRotation": false,
-              "isBullet": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
               "linearDamping": 0.1,
-              "massDensity": 1,
-              "name": "Physics",
-              "polygonHeight": 200,
-              "polygonWidth": 200,
-              "positioning": "OnCenter",
-              "shapeType": "Box",
-              "type": "PhysicsBehavior::PhysicsBehavior"
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
             }
           ],
           "animations": [
@@ -1329,28 +1321,34 @@
           ]
         },
         {
-          "name": "residuos_Organicos",
+          "name": "ResiduosOrganicos",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "behaviors": [
             {
-              "angularDamping": 0.1,
-              "autoResizing": false,
-              "averageFriction": 0.8,
-              "averageRestitution": 0,
-              "coordsList": "",
-              "dynamic": false,
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
               "fixedRotation": false,
-              "isBullet": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
               "linearDamping": 0.1,
-              "massDensity": 1,
-              "name": "Physics",
-              "polygonHeight": 200,
-              "polygonWidth": 200,
-              "positioning": "OnCenter",
-              "shapeType": "Box",
-              "type": "PhysicsBehavior::PhysicsBehavior"
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
             }
           ],
           "animations": [
@@ -1444,28 +1442,34 @@
           ]
         },
         {
-          "name": "residuos_Papel_Carton",
+          "name": "ResiduosPapelCarton",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "behaviors": [
             {
-              "angularDamping": 0.1,
-              "autoResizing": false,
-              "averageFriction": 0.8,
-              "averageRestitution": 0,
-              "coordsList": "",
-              "dynamic": false,
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
               "fixedRotation": false,
-              "isBullet": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
               "linearDamping": 0.1,
-              "massDensity": 1,
-              "name": "Physics",
-              "polygonHeight": 200,
-              "polygonWidth": 200,
-              "positioning": "OnCenter",
-              "shapeType": "Box",
-              "type": "PhysicsBehavior::PhysicsBehavior"
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
             }
           ],
           "animations": [
@@ -1559,28 +1563,34 @@
           ]
         },
         {
-          "name": "residuos_Plasticos",
+          "name": "ResiduosPlasticos",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "behaviors": [
             {
-              "angularDamping": 0.1,
-              "autoResizing": false,
-              "averageFriction": 0.8,
-              "averageRestitution": 0,
-              "coordsList": "",
-              "dynamic": false,
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
               "fixedRotation": false,
-              "isBullet": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
               "linearDamping": 0.1,
-              "massDensity": 1,
-              "name": "Physics",
-              "polygonHeight": 200,
-              "polygonWidth": 200,
-              "positioning": "OnCenter",
-              "shapeType": "Box",
-              "type": "PhysicsBehavior::PhysicsBehavior"
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
             }
           ],
           "animations": [
@@ -1674,28 +1684,34 @@
           ]
         },
         {
-          "name": "residuos_Riesgo_Biologico",
+          "name": "ResiduosRiesgoBiologico",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "behaviors": [
             {
-              "angularDamping": 0.1,
-              "autoResizing": false,
-              "averageFriction": 0.8,
-              "averageRestitution": 0,
-              "coordsList": "",
-              "dynamic": false,
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
               "fixedRotation": false,
-              "isBullet": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
               "linearDamping": 0.1,
-              "massDensity": 1,
-              "name": "Physics",
-              "polygonHeight": 200,
-              "polygonWidth": 200,
-              "positioning": "OnCenter",
-              "shapeType": "Box",
-              "type": "PhysicsBehavior::PhysicsBehavior"
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
             }
           ],
           "animations": [
@@ -1789,7 +1805,8 @@
           ]
         },
         {
-          "name": "caneca_Ordinarios",
+          "name": "CanecaOrdinarios",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1827,7 +1844,8 @@
           ]
         },
         {
-          "name": "caneca_Organicos",
+          "name": "CanecaOrganicos",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1865,7 +1883,8 @@
           ]
         },
         {
-          "name": "caneca_Papel_Carton",
+          "name": "CanecaPapelCarton",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1903,7 +1922,8 @@
           ]
         },
         {
-          "name": "caneca_Plasticos",
+          "name": "CanecaPlasticos",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1941,7 +1961,8 @@
           ]
         },
         {
-          "name": "caneca_Biologica",
+          "name": "CanecaBiologica",
+          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1981,789 +2002,30 @@
       ],
       "events": [
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "tux",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlayAnimation"
-              },
-              "parameters": [
-                "tux"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreX"
-              },
-              "parameters": [
-                "tux",
-                "-",
-                "4"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "tux",
-                "=",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlayAnimation"
-              },
-              "parameters": [
-                "tux"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Right"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "tux",
-                "=",
-                "3"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlayAnimation"
-              },
-              "parameters": [
-                "tux"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreX"
-              },
-              "parameters": [
-                "tux",
-                "+",
-                "4"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "Right"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "tux",
-                "=",
-                "4"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlayAnimation"
-              },
-              "parameters": [
-                "tux"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "residuos_Ordinarios",
-                "=",
-                "18"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "residuos_Organicos",
-                "=",
-                "18"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "residuos_Papel_Carton",
-                "=",
-                "18"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "residuos_Plasticos",
-                "=",
-                "18"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "residuos_Riesgo_Biologico",
-                "=",
-                "18"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Timer"
-              },
-              "parameters": [
-                "",
-                "6 - Random(4)",
-                "timer_Ordinarios"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "timer_Ordinarios"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "residuos_Ordinarios",
-                "Random(800)",
-                "20",
-                "16"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "residuos_Ordinarios",
-                "=",
-                "Random(3)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Timer"
-              },
-              "parameters": [
-                "",
-                "2 + Random(2) ",
-                "timer_Organicos"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "timer_Organicos"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "residuos_Organicos",
-                "Random(800)",
-                "20",
-                "16"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "residuos_Organicos",
-                "=",
-                "Random(3)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Timer"
-              },
-              "parameters": [
-                "",
-                "2 + Random(3)",
-                "timer_Papel_Carton"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "timer_Papel_Carton"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "residuos_Papel_Carton",
-                "Random(800)",
-                "20",
-                "16"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "residuos_Papel_Carton",
-                "=",
-                "Random(3)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Timer"
-              },
-              "parameters": [
-                "",
-                "2 + Random(4)",
-                "timer_Plasticos"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "timer_Plasticos"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "residuos_Plasticos",
-                "Random(800)",
-                "20",
-                "16"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "residuos_Plasticos",
-                "=",
-                "Random(3)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Timer"
-              },
-              "parameters": [
-                "",
-                "7 - Random(5)",
-                "timer_Biologico"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "timer_Biologico"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "residuos_Riesgo_Biologico",
-                "Random(800)",
-                "20",
-                "16"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "residuos_Riesgo_Biologico",
-                "=",
-                "Random(3)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PosY"
-              },
-              "parameters": [
-                "residuos_Ordinarios",
-                "<=",
-                "400"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "residuos_Ordinarios",
-                "",
-                "150",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PosY"
-              },
-              "parameters": [
-                "residuos_Organicos",
-                "<=",
-                "400"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "residuos_Organicos",
-                "0",
-                "150",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PosY"
-              },
-              "parameters": [
-                "residuos_Papel_Carton",
-                "<=",
-                "400"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "residuos_Papel_Carton",
-                "0",
-                "150",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PosY"
-              },
-              "parameters": [
-                "residuos_Riesgo_Biologico",
-                "<=",
-                "400"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "residuos_Riesgo_Biologico",
-                "0",
-                "150",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PosY"
-              },
-              "parameters": [
-                "residuos_Plasticos",
-                "<=",
-                "400"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "residuos_Plasticos",
-                "0",
-                "150",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "hold",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
+          "name": "Tux Penguin",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "disabled": false,
               "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "residuos_Ordinarios",
-                    "Physics",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Se mueve el TUX",
+              "comment2": ""
             },
             {
               "disabled": false,
@@ -2777,16 +2039,8 @@
                   },
                   "parameters": [
                     "",
-                    "x"
+                    "Left"
                   ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -2794,55 +2048,40 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "ChangeAnimation"
                   },
                   "parameters": [
-                    "hold",
+                    "tux",
                     "=",
                     "1"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlayAnimation"
+                  },
+                  "parameters": [
+                    "tux"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "tux",
+                    "-",
+                    "10"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "hold",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "residuos_Ordinarios",
-                "=",
-                "tux.X(residuos_Ordinarios)",
-                "=",
-                "tux.Y(residuos_Ordinarios)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
+            },
             {
               "disabled": false,
               "folded": false,
@@ -2851,9 +2090,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "KeyReleased"
                   },
-                  "parameters": [],
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
                   "subInstructions": []
                 }
               ],
@@ -2861,12 +2103,22 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ActivateBehavior"
+                    "value": "ChangeAnimation"
                   },
                   "parameters": [
-                    "residuos_Ordinarios",
-                    "Physics",
-                    "no"
+                    "tux",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlayAnimation"
+                  },
+                  "parameters": [
+                    "tux"
                   ],
                   "subInstructions": []
                 }
@@ -2885,16 +2137,8 @@
                   },
                   "parameters": [
                     "",
-                    "x"
+                    "Right"
                   ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -2902,23 +2146,1217 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "ChangeAnimation"
                   },
                   "parameters": [
-                    "hold",
+                    "tux",
                     "=",
-                    "0"
+                    "3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlayAnimation"
+                  },
+                  "parameters": [
+                    "tux"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "tux",
+                    "+",
+                    "10"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "tux",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlayAnimation"
+                  },
+                  "parameters": [
+                    "tux"
                   ],
                   "subInstructions": []
                 }
               ],
               "events": []
             }
-          ]
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Residuos",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": false,
+              "name": "Base",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Los elementos de basura se ponen en primer plano",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "ResiduosOrdinarios",
+                        "=",
+                        "18"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "ResiduosOrganicos",
+                        "=",
+                        "18"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "ResiduosPapelCarton",
+                        "=",
+                        "18"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "ResiduosPlasticos",
+                        "=",
+                        "18"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "ResiduosRiesgoBiologico",
+                        "=",
+                        "18"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": false,
+              "name": "Timers",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Falldown",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "3+Random(2)",
+                        "\"TimerResiduosOrdinarios\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"TimerResiduosOrdinarios\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "ResiduosOrdinarios",
+                        "Random(800)",
+                        "20",
+                        "20"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "ResiduosOrdinarios",
+                        "=",
+                        "Random(3)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Physics2::GravityScale"
+                      },
+                      "parameters": [
+                        "ResiduosOrdinarios",
+                        "Physics2",
+                        "=",
+                        "0.1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "4+Random(2)",
+                        "\"TimerResiduosOrganicos\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"TimerResiduosOrganicos\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "ResiduosOrganicos",
+                        "Random(800)",
+                        "20",
+                        "20"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "ResiduosOrganicos",
+                        "=",
+                        "Random(3)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Physics2::GravityScale"
+                      },
+                      "parameters": [
+                        "ResiduosOrganicos",
+                        "Physics2",
+                        "=",
+                        "0.1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "5+Random(2)",
+                        "\"TimerResiduosPapelCarton\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"TimerResiduosPapelCarton\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "ResiduosPapelCarton",
+                        "Random(800)",
+                        "20",
+                        "20"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "ResiduosPapelCarton",
+                        "=",
+                        "Random(3)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Physics2::GravityScale"
+                      },
+                      "parameters": [
+                        "ResiduosPapelCarton",
+                        "Physics2",
+                        "=",
+                        "0.1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "6+Random(2)",
+                        "\"TimerResiduosPlasticos\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"TimerResiduosPlasticos\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "ResiduosPlasticos",
+                        "Random(800)",
+                        "20",
+                        "20"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "ResiduosPlasticos",
+                        "=",
+                        "Random(3)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Physics2::GravityScale"
+                      },
+                      "parameters": [
+                        "ResiduosPlasticos",
+                        "Physics2",
+                        "=",
+                        "0.1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "7+Random(2)",
+                        "\"TimerResiduosRiesgoBiologico\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"TimerResiduosRiesgoBiologico\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "ResiduosRiesgoBiologico",
+                        "Random(800)",
+                        "20",
+                        "20"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "ResiduosRiesgoBiologico",
+                        "=",
+                        "Random(3)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Physics2::GravityScale"
+                      },
+                      "parameters": [
+                        "ResiduosRiesgoBiologico",
+                        "Physics2",
+                        "=",
+                        "0.1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": false,
+              "name": "Coliciones",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "disabled": false,
+                  "folded": false,
+                  "name": "Residuos Ordinarios",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "ResiduosOrdinarios",
+                            "tux",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "ResiduosOrdinarios",
+                            "Physics2",
+                            "no"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "AddForceVersPos"
+                          },
+                          "parameters": [
+                            "ResiduosOrdinarios",
+                            "CanecaOrdinarios.CenterX()",
+                            "CanecaOrdinarios.Y()",
+                            "100",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "ResiduosOrdinarios",
+                            "Tocado",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Residuos",
+                            "CanecaOrdinarios.CenterX()",
+                            "CanecaOrdinarios.Y()"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "ResiduosOrdinarios",
+                            "Tocado",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "ResiduosOrdinarios",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "disabled": false,
+                  "folded": false,
+                  "name": "Residuos Organicos",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "ResiduosOrganicos",
+                            "tux",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "ResiduosOrganicos",
+                            "Physics2",
+                            "no"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "AddForceVersPos"
+                          },
+                          "parameters": [
+                            "ResiduosOrganicos",
+                            "CanecaOrganicos.CenterX()",
+                            "CanecaOrganicos.Y()",
+                            "100",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "ResiduosOrganicos",
+                            "Tocado",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Residuos",
+                            "CanecaOrganicos.CenterX()",
+                            "CanecaOrganicos.Y()"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "ResiduosOrganicos",
+                            "Tocado",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "ResiduosOrganicos",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "disabled": false,
+                  "folded": false,
+                  "name": "Residuos Papel Carton",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "ResiduosPapelCarton",
+                            "tux",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "ResiduosPapelCarton",
+                            "Physics2",
+                            "no"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "AddForceVersPos"
+                          },
+                          "parameters": [
+                            "ResiduosPapelCarton",
+                            "CanecaPapelCarton.CenterX()",
+                            "CanecaPapelCarton.Y()",
+                            "100",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "ResiduosPapelCarton",
+                            "Tocado",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Residuos",
+                            "CanecaPapelCarton.CenterX()",
+                            "CanecaPapelCarton.Y()"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "ResiduosPapelCarton",
+                            "Tocado",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "ResiduosPapelCarton",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "disabled": false,
+                  "folded": false,
+                  "name": "Residuos Papel Carton",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "ResiduosPlasticos",
+                            "tux",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "ResiduosPlasticos",
+                            "Physics2",
+                            "no"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "AddForceVersPos"
+                          },
+                          "parameters": [
+                            "ResiduosPlasticos",
+                            "CanecaPlasticos.CenterX()",
+                            "CanecaPlasticos.Y()",
+                            "100",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "ResiduosPlasticos",
+                            "Tocado",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Residuos",
+                            "CanecaPlasticos.CenterX()",
+                            "CanecaPlasticos.Y()"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "ResiduosPlasticos",
+                            "Tocado",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "ResiduosPlasticos",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "disabled": false,
+                  "folded": false,
+                  "name": "Residuos Riesgo Biológico",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "ResiduosRiesgoBiologico",
+                            "tux",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "ResiduosRiesgoBiologico",
+                            "Physics2",
+                            "no"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "AddForceVersPos"
+                          },
+                          "parameters": [
+                            "ResiduosRiesgoBiologico",
+                            "CanecaBiologica.CenterX()",
+                            "CanecaBiologica.Y()",
+                            "100",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "ResiduosRiesgoBiologico",
+                            "Tocado",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Residuos",
+                            "CanecaBiologica.CenterX()",
+                            "CanecaBiologica.Y()"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "ResiduosRiesgoBiologico",
+                            "Tocado",
+                            "True"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "ResiduosRiesgoBiologico",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "",
           "visibility": true,
           "cameras": [
@@ -2938,17 +3376,18 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
           "gravityX": 0,
-          "gravityY": 9,
-          "name": "Physics",
+          "gravityY": 9.8,
           "scaleX": 100,
-          "scaleY": 100,
-          "type": "PhysicsBehavior::PhysicsBehavior"
+          "scaleY": 100
         }
       ]
     }
   ],
   "externalEvents": [],
+  "eventsFunctionsExtensions": [],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
